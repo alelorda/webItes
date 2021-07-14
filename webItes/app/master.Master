@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="webItes.app.master" %>
+
+<!DOCTYPE html>
+<html>
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>ITES - Desarrollo Web</title>
+        <link rel="stylesheet" href="Style/main.css" >
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <header>
+	    
+	   	<div class="contenedor">
+		    <div id="marca">
+    			<h1><span class="resaltado">ITES</span> - Desarrollo Web</h1>
+</header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+    <footer>
+            <p>ITES Desarrollo Web - Copyright &copy; 2021</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,188 @@
+﻿body {
+    font: 15px Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos globales */
+.contenedor {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* Encabezado **/
+header {
+    background: #24282b;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #1293d4 5px solid;
+}
+
+header a {
+        color: #24282b;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+}
+
+
+    header #marca {
+    float: left;
+    margin-left: 0px;
+}
+
+        header #marca h1 {
+            margin: 0;
+        }
+
+    header nav {
+        float: right;
+        margin-top: 10px;
+    width: 482px;
+    margin-left: 127px;
+}
+
+    header .resaltado, header .actual a {
+        color: #1293d4;
+        font-weight: bold;
+    }
+
+    header a:hover {
+        color: #cccccc;
+        font-weight: bold;
+    }
+
+
+
+/* Login */
+.imgsarasa {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    
+}
+
+
+.sarasa {
+    padding: 100;
+    margin: auto;
+    width: 50%;
+}
+
+.textBox {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Login */
+.recuperarbtn {
+    background-color: #ec3f3f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+}
+
+
+/* Login - Inicio*/
+.accederbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+}
+
+.confirmbtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+rechazarbtn {
+    background-color: #ec3f3f;
+    color: white;
+}
+
+.cersesionbtn {
+    background-color: #ec3f3f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 99%;
+}
+/* Buscar - Inicio */
+.buscarbtn {
+    background-color: #ff5733;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+}
+
+.atrasbtn {
+    background-color: #ff5733;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+}
+
+/* Listado */
+.verbtn {
+    background-color: #FFC300;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 32%;
+}
+
+/* Listado */
+.editarbtn {
+    background-color: #1293d4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 32%;
+}
+
+/* Listado */
+.eliminarbtn {
+    background-color: #ec3f3f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 32%;
+}
+
+footer {
+    /*padding: 0;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 0;*/
+    color: #ffffff;
+    background-color: #1293d4;
+    text-align: center;
+}
